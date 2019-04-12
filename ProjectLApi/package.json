@@ -1,0 +1,30 @@
+{
+  "name": "projectlapi",
+  "version": "1.0.0",
+  "description": "REST ProjectLApi",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"No test\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LucDengremont/ProjectL.git"
+  },
+  "keywords": [
+    "Api"
+  ],
+  "author": "Luc Dengremont",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LucDengremont/ProjectL/issues"
+  },
+  "homepage": "https://github.com/LucDengremont/ProjectL#readme",
+  "devDependencies": {
+    "nodemon": "^1.18.11"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "mongoose": "^5.5.0"
+  }
+}

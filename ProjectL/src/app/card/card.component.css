@@ -1,0 +1,25 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-around;
+}
+
+.header {
+    height: 15%;
+}
+
+.content {
+    height: 5%;
+}
+
+.card {
+    max-width: 15em;
+    width: 15em;
+    height: 22em;
+    margin-bottom: 10px;
+    margin-right: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
